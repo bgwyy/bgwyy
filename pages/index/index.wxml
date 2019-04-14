@@ -1,0 +1,19 @@
+<view class="container">
+  <view class='top'>
+    <view class='bt'>{{bt}}</view>
+    <view class='head'>
+      <input bindinput='int' placeholder="请添加标题" focus="{{focus}}" />
+      <button class='but1' bindtap='btpclick'>
+        {{but1}}
+      </button>
+    </view>
+  </view>
+  <view class='center'>
+    <view class="item" wx:for="{{list}}" wx:for-item="item" wx:key="index">
+      <view data-index="{{index}}" style="{{item.txtStyle}}"  bindtouchstart="touchStart" bindtouchmove="touchM" class='txt'>{{index+1}}---{{item.list}}</view>
+      <button class='but2' bindtap='sc' data-id='{{index}}'>{{but2}}</button>
+      <!-- </view> -->
+    </view>
+
+  </view>
+</view>

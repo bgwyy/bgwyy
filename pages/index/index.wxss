@@ -1,0 +1,96 @@
+
+.container {
+  padding: 0;
+  
+}
+
+.top {
+  /* border: 1px solid red; */
+  /* height: 70px; */
+  width: 100%;
+  /* background-color: red; */
+}
+
+.center {
+  width: 100%;
+  flex: 1;
+  /* height: 80vh; */
+  overflow: auto;
+  /* background-color: blue */
+}
+
+.head {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  /* justify-content: center;
+  align-items: center; */
+}
+.bt{
+  line-height: 40px;
+  width: 100vh;
+  height: 40px;
+  border-bottom:1px solid red; 
+}
+.bt text{
+  font-size: 20px;
+  font-weight: bold;
+}
+image {
+  width: 32px;
+  height: 32px;
+}
+
+input {
+  border: 1px solid black;
+  border-radius: 5px ;
+  height: 40px;
+  width: 80vh;
+}
+.item{
+  position: relative;
+  font-size: 14px;
+display: flex;
+/* justify-content: space-between; */
+flex-direction: row;
+border-bottom:1px solid #ccc;
+}
+.but1 {
+ 
+  height: 6vh;
+  width: 90px;
+ background-color: orangered;
+  /* width: 90px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.but2 {
+  height:6vh;
+  width: 67px;
+ 
+ background-color: orangered;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  position: absolute;
+  right: 0px;
+  z-index: 5;
+}
+
+.txt {
+  width: 100vw;
+-webkit-transition: all 0.4s;
+transition: all 0.4s;
+  line-height: 6vh;
+height: 6vh;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+  z-index: 10;
+  background-color: white;
+}
